@@ -1,0 +1,179 @@
+
+#vacancies {
+  .vacancies {
+    .vacancies--general {
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 100px;
+        color: #FFFFFF;
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -15%;
+        top: 42%;
+      }
+
+      &__block {
+        &--lines {
+          width: 749px;
+          height: 0;
+          background: #FFFFFF;
+          border: 1px solid #FFFFFF;
+          margin: 60px 0 0 120%;
+        }
+
+        &--title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: absolute;
+          right: -69%;
+          padding: 5px;
+          left: 120%;
+
+          h2 {
+            //font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            //font-size: 30px;
+            line-height: 37px;
+            color: #FFFFFF;
+            width: 36ch;
+            animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            //border-right: 1px solid;
+            font-family: monospace;
+            font-size: 2em;
+            transition: .4s;
+            @keyframes typing {
+              from {
+                width: 0
+              }
+            }
+
+            @keyframes blink {
+              50% {
+                border-color: transparent
+              }
+            }
+          }
+
+          &__circle {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            background: #FF0000;
+            h3 {
+              font-family: 'Montserrat',sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 23px;
+              line-height: 28px;
+              color: #FFFFFF;
+              text-align: center;
+              padding-top: 20px;
+            }
+          }
+
+          span {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #FFFFFF;
+          }
+        }
+        &--modal {
+          //display: none;
+          &__block2 {
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.72);
+            backdrop-filter: blur(5px);
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &--square {
+              width: 1240px;
+              height: 800px;
+              background: #FFFFFF;
+              &__close {
+                font-family: 'Montserrat',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                color: #000000;
+                position: absolute;
+                right: 10%;
+                top: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//.wrapper {
+//  height: 100vh;
+//  /*This part is important for centering*/
+//  display: grid;
+//  place-items: center;
+//  background: #1e1e1e;
+//  color: #fff;
+//}
+
+.typing-demo {
+  width: 36ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+.typing-demo2 {
+  width: 36ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  //border-right: 1px solid;
+  font-family: monospace;
+  font-size: 2em;
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+}
+
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+

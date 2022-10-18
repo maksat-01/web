@@ -1,0 +1,120 @@
+
+#our-team {
+  .our-team {
+    display: flex;
+    position: absolute;
+    left: 7%;
+    //background: rgba(255, 255, 255, 0);
+    top: 0;
+    .our-team--general {
+      margin-left: -13%;
+      position: absolute;
+      top: 0;
+      left: 1%;
+      width: 235px;
+      height: 800px;
+      background: white;
+      h1 {
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 900;
+        font-size: 82px;
+        color: #777777;
+        transform: rotate(-90deg);
+        width: 500px;
+        height: 116px;
+        position: absolute;
+        top: 40%;
+        right: -40%;
+        margin-left: -45vw;
+      }
+    }
+    .our-team--block {
+      display: flex;
+
+      &__item {
+        display: flex;
+
+        &--group {
+          display: flex;
+          position: relative;
+          img {
+            width: 340px;
+            height: 801px;
+          //position: absolute;
+            z-index: 10;
+            padding-left: 0;
+            transition: .4s;
+            &:hover {
+              opacity: .5;
+              width: 512px;
+              height: 801px;
+            }
+          }
+          &__icon {
+            position: absolute;
+            bottom: 15%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            h6 {
+              text-align: center;
+              color: #FFFFFF;
+              font-weight: 500;
+              font-size: 30px;
+              font-family: 'Montserrat',sans-serif;
+              font-style: normal;
+            }
+            span {
+              font-family: 'Montserrat',sans-serif;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 24px;
+              line-height: 29px;
+              color: #FFFFFF;
+              padding: 20px;
+            }
+            &--gmail {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              &__in {
+                text-align: center;
+                width: 39px;
+                height: 39px;
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+      #scroll {
+        width: 444px;
+        height: 800px;
+        background: #E9E9E9;
+        .scroll {
+
+
+          display: flex;
+          &--general {
+            padding: 30px;
+            h1 {
+              font-weight: 700;
+              font-size: 20px;
+              color: #777777;
+
+            }
+            h2 {
+              font-family: 'Montserrat',sans-serif;
+              font-weight: 700;
+              font-size: 106px;
+              color: #777777;
+              width: 298px;
+              height: 645px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

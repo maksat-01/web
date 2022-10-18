@@ -1,0 +1,65 @@
+#contact {
+  width: 150%;
+  height: 800px;
+  margin-left: 75%;
+  background: #FFFFFF;
+  .contact {
+    .contact--general {
+      h2 {
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 82px;
+        color: #252125;
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        transform: rotate(-90deg);
+      }
+      &__block {
+        margin-left: 15%;
+        padding-top: 2%;
+        &--title {
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          background: #FF0000;
+          position: absolute;
+          bottom:10%;
+          right: 12%;
+        }
+        &--email {
+          padding: 10px;
+          a {
+            font-family: 'Montserrat',sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #252125;
+            text-decoration: none;
+            padding: 0 10px;
+          }
+        }
+      }
+      &__circle2 {
+        width: 537px;
+        height: 537px;
+        background: #FF0000;
+        border-radius: 50%;
+        position: absolute;
+        right: -30%;
+        bottom: -40%;
+      }
+    }
+    .contact--image {
+      img {
+        position: absolute;
+        right: -55%;
+        top: 0;
+        width: 545px;
+        height: 803px;
+      }
+    }
+  }
+}

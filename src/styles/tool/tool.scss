@@ -1,0 +1,129 @@
+#scroll {
+  width: 494px;
+  height: 800px;
+  background: #FFFFFF;
+  z-index: 99;
+  margin-left: -8%;
+  .scroll {
+    display: flex;
+    &--general {
+      padding: 30px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 20px;
+        color: #777777;
+
+      }
+
+      h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 106px;
+        color: #777777;
+        width: 298px;
+        height: 645px;
+      }
+    }
+  }
+}
+
+
+#tool {
+  width: 150%;
+  display: flex;
+  margin-left: 33.70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+
+  .tool {
+
+    .tool--general {
+      &__image {
+        position: absolute;
+        top: 0;
+      }
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 83px;
+        line-height: 101px;
+        color: #252125;
+        position: absolute;
+        top: 0;
+        right: 17%;
+        z-index: 1;
+        width: 26ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        @keyframes typing {
+          from {
+            width: 0
+          }
+        }
+
+        @keyframes blink {
+          50% {
+            border-color: transparent
+          }
+        }
+      }
+
+      &__image2 {
+        position: absolute;
+        left: 10%;
+      }
+      &__image4 {
+        width: 133.27px;
+        height: 133.27px;
+        background: #FF0000;
+        border-radius: 50%;
+        transform: rotate(24.68deg);
+        position: absolute;
+        top: 15%;
+        right: 40%;
+      }
+      &__image5 {
+        width: 926px;
+        height: 926px;
+        border-radius: 50%;
+        position: absolute;
+        top: -80%;
+        right: -10%;
+        background: #FF0000;
+        transform: rotate(24.68deg);
+      }
+      &__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20%;
+        margin-left: 15%;
+        width: 1423px;
+        height: 107px;
+
+        &--title {
+          margin: 30px;
+          width: 79px;
+          height: 85px;
+          background: #252125;
+          border-radius: 5px;
+          z-index: 99;
+          &__image3 {
+            position: absolute;
+            right: 20%;
+            bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+
+}
