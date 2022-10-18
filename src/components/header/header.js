@@ -1,6 +1,5 @@
 import React from 'react';
 import {VscArrowRight} from  'react-icons/vsc'
-import scroll from "../../assests/img/scroll.svg";
 
 const Header = () => {
     return (
