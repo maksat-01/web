@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="about--general__title">
                     <p>We will develop a project for your <br/>business as if our own money and <br/>success are at stake.</p>
                     <div className="about--general__title--btn">
-                        <button >ROLAN </button>
+                        <button>Get consultation</button>
                         <VscArrowRight className="about--general__title--btn__click"/>
                     </div>
                     <div className="about--general__title--block"></div>
