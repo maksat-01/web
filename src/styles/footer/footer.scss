@@ -4,6 +4,7 @@
   height: 803px;
   margin-left: 56%;
   .footer {
+    display: flex;
     .footer--general {
       &__block {
         display: flex;
@@ -90,6 +91,11 @@
           bottom: 4%;
         }
       }
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 17%;
     }
   }
 }

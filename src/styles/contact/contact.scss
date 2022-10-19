@@ -6,7 +6,7 @@
   .contact {
     .contact--general {
       h2 {
-        font-family: 'Montserrat',sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 82px;
@@ -19,19 +19,22 @@
       &__block {
         margin-left: 15%;
         padding-top: 2%;
+
         &--title {
           width: 64px;
           height: 64px;
           border-radius: 50%;
           background: #FF0000;
           position: absolute;
-          bottom:10%;
+          bottom: 10%;
           right: 12%;
         }
+
         &--email {
           padding: 10px;
+
           a {
-            font-family: 'Montserrat',sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
@@ -51,15 +54,7 @@
         right: -30%;
         bottom: -40%;
       }
-    }
-    .contact--image {
-      img {
-        position: absolute;
-        right: -55%;
-        top: 0;
-        width: 545px;
-        height: 803px;
-      }
+
     }
   }
 }

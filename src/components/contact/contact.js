@@ -3,8 +3,10 @@ import {FaLinkedinIn, FaTelegramPlane} from "react-icons/fa";
 import {AiFillInstagram} from "react-icons/ai";
 import {IoLogoWhatsapp, IoMdCall} from "react-icons/io";
 import {SiGmail} from "react-icons/si";
-import maps from '../../assests/img/maps.png'
+
 const Contact = () => {
+
+
     return (
         <section id="contact">
             <div className="contact">
@@ -38,9 +40,6 @@ const Contact = () => {
                         <div className="contact--general__block--title"></div>
                     </div>
                     <div className="contact--general__circle2"></div>
-                </div>
-                <div className="contact--image">
-                    <img src={maps} alt=""/>
                 </div>
             </div>
         </section>

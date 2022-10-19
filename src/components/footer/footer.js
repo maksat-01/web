@@ -40,6 +40,9 @@ const Footer = () => {
                         <img src={logo3} alt="" className="footer--general__title--image"/>
                     </div>
                 </div>
+                <iframe width="580" height="720" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=motion%20web&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                ></iframe>
             </div>
         </footer>
     );
