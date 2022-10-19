@@ -9,7 +9,8 @@ const Fixed = () => {
         <section id="title">
             <div className="title">
                 <img src={ logo1} alt=""/>
-                <div className="title--general">
+                <div className="title--general"
+                >
                     <AiFillInstagram className="title--general__icons"/>
                     <AiFillLinkedin className="title--general__icons"/>
                     <FaTelegramPlane className="title--general__icons"/>

@@ -25,7 +25,7 @@ gsap.registerPlugin(ScrollTrigger);
 // REACT
 
 const App = () => {
-    const [modalActive, setModalActive] = useState(true)
+    // const [modalActive, setModalActive] = useState(true)
     const panels = useRef([]);
     const panelsContainer = useRef();
 
@@ -43,7 +43,7 @@ const App = () => {
                 trigger: panelsContainer.current,
                 pin: true,
                 scrub: 1,
-                snap: 1 / (totalPanels - 1),
+                // snap: 1 / (totalPanels - 1),
                 end: () => "+=" + panelsContainer.current.offsetWidth
             }
         });
@@ -75,7 +75,7 @@ const App = () => {
                     <Tool/>
                 </section>
                 <section className="panel purple" ref={(e) => createPanelsRefs(e, 6)}>
-                    <Vacancies active={modalActive} setActive={setModalActive}/>
+                    <Vacancies/>
                 </section>
                 <section className="panel purple" ref={(e) => createPanelsRefs(e, 7)}>
                     <Contact/>
