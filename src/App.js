@@ -10,6 +10,7 @@ import Team from './components/team/team'
 import Ourteam from './components/ourteam/ourteam'
 import Footer from './components/footer/footer'
 import Contact from './components/contact/contact'
+import AnimCursor from "./components/AnimCursor";
 // JS
 
 // SASS
@@ -25,7 +26,7 @@ gsap.registerPlugin(ScrollTrigger);
 // REACT
 
 const App = () => {
-    const [modalActive, setModalActive] = useState(true)
+    // const [modalActive, setModalActive] = useState(true)
     const panels = useRef([]);
     const panelsContainer = useRef();
 
@@ -53,6 +54,7 @@ const App = () => {
 
     return (
         <>
+            <AnimCursor />
             <div className="container" ref={panelsContainer}>
                 <div className="description panel blue" ref={(e) => createPanelsRefs(e, 0)}>
                     <Header/>
@@ -75,7 +77,7 @@ const App = () => {
                     <Tool/>
                 </section>
                 <section className="panel purple" ref={(e) => createPanelsRefs(e, 6)}>
-                    <Vacancies active={modalActive} setActive={setModalActive}/>
+                    <Vacancies/>
                 </section>
                 <section className="panel purple" ref={(e) => createPanelsRefs(e, 7)}>
                     <Contact/>
