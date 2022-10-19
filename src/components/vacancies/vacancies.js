@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Vacancies = ({active, setActive, children}) => {
+const Vacancies = () => {
 
     return (
         <section id="vacancies">
