@@ -43,7 +43,7 @@ const App = () => {
                 trigger: panelsContainer.current,
                 pin: true,
                 scrub: 1,
-                snap: 1 / (totalPanels - 1),
+                // snap: 1 / (totalPanels - 1),
                 end: () => "+=" + panelsContainer.current.offsetWidth
             }
         });

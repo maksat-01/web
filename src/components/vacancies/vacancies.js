@@ -1,7 +1,5 @@
 import React from 'react';
-
 const Vacancies = () => {
-
     return (
         <section id="vacancies">
             <div className="vacancies">
@@ -12,7 +10,7 @@ const Vacancies = () => {
                         <div className="vacancies--general__block--title">
                             <h2>Mobile/Flutter developer</h2>
                             <div className="vacancies--general__block--title__circle">
-                             <h3>view</h3>
+                                <h3>view</h3>
                             </div>
                             <div>
                                 <span className="vacancies--general__block--title__click">Actual</span>
@@ -32,5 +30,4 @@ const Vacancies = () => {
         </section>
     );
 };
-
 export default Vacancies;
