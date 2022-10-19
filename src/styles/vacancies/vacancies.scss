@@ -132,48 +132,48 @@
 //  background: #1e1e1e;
 //  color: #fff;
 //}
-
-.typing-demo {
-  width: 36ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 1px solid;
-  font-family: monospace;
-  font-size: 2em;
-}
-.typing-demo2 {
-  width: 36ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  //border-right: 1px solid;
-  font-family: monospace;
-  font-size: 2em;
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-}
-
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-
-
-
+//
+//.typing-demo {
+//  width: 36ch;
+//  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+//  white-space: nowrap;
+//  overflow: hidden;
+//  border-right: 1px solid;
+//  font-family: monospace;
+//  font-size: 2em;
+//}
+//.typing-demo2 {
+//  width: 36ch;
+//  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+//  white-space: nowrap;
+//  overflow: hidden;
+//  //border-right: 1px solid;
+//  font-family: monospace;
+//  font-size: 2em;
+//  @keyframes typing {
+//    from {
+//      width: 0
+//    }
+//  }
+//}
+//
+//  @keyframes blink {
+//    50% {
+//      border-color: transparent
+//    }
+//}
+//
+//@keyframes typing {
+//  from {
+//    width: 0
+//  }
+//}
+//
+//@keyframes blink {
+//  50% {
+//    border-color: transparent
+//  }
+//}
+//
+//
+//
