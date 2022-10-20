@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 const Vacancies = () => {
-    const [open,setOpen] = useState(false)
+    // const [open,setOpen] = useState(false)
     return (
         <section id="vacancies">
             <div className="vacancies">
@@ -15,14 +15,14 @@ const Vacancies = () => {
                             {/*    <h3>view</h3>*/}
                             {/*</div>*/}
 
-                            <button onClick={() => setOpen(true)}>open modal</button>
-                            <modal open = {open} onClose {() => setOpen (false)}>
-                                <box position = "absolute" top = "50%" left="50%">
-                                    <typography>It is modal</typography>
-                                    <button onClick={() => setOpen(false)}>click me</button>
+                            {/*<button onClick={() => setOpen(true)}>open modal</button>*/}
+                            {/*<modal open = {open} onClose {() => setOpen (false)}>*/}
+                            {/*    <box position = "absolute" top = "50%" left="50%">*/}
+                            {/*        <typography>It is modal</typography>*/}
+                            {/*        <button onClick={() => setOpen(false)}>click me</button>*/}
 
-                                </box>
-                            </modal>
+                            {/*    </box>*/}
+                            {/*</modal>*/}
 
                             <div>
                                 <span className="vacancies--general__block--title__click">Actual</span>
