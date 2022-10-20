@@ -1,10 +1,35 @@
 @media(max-width: 1440px) {
   #title {
+    //background: orange;
+    height: 178px;
+    width: 1320px;
+    background: #252125;
+    position: fixed;
+    //z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
     .title {
+      display: flex;
+
       &--general {
         display: none;
       }
+      .hamburger-menu {
+        .menu__btn {
+          top: 40px;
+          right: 20px;
+          left: 9.80%;
+        }
+      }
+    }
+  }
+  #about {
+    margin-left: 0;
+    .about {
+      .about--general {
 
+      }
     }
   }
 }
