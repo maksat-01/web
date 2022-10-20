@@ -54,7 +54,7 @@ const App = () => {
 
     return (
         <>
-            <AnimCursor />
+            <AnimCursor/>
             <div className="container" ref={panelsContainer}>
                 <div className="description panel blue" ref={(e) => createPanelsRefs(e, 0)}>
                     <Header/>
