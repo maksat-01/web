@@ -30,7 +30,6 @@ const Fixed = () => {
                         <li><a className="menu__item" href="#">Service</a></li>
                         <li><a className="menu__item" href="#">Our projects</a></li>
                         <li><a className="menu__item" href="#">Our team</a></li>
-
                 </ul>
             </div>
             </div>
