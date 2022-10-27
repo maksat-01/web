@@ -1,40 +1,93 @@
 @media(max-width: 1440px) {
-  #title {
-    //background: orange;
-    height: 178px;
-    width: 1320px;
-    background: #252125;
-    position: fixed;
-    //z-index: 100;
-    top: 0;
-    left: 0;
-    right: 0;
-    .title {
-      display: flex;
-
-      &--general {
-        display: none;
-      }
-      .hamburger-menu {
-        .menu__btn {
-          top: 40px;
-          right: 20px;
-          left: 9.80%;
-        }
-      }
-    }
+  .hero--block .hero--title__icon {
+    margin: 15% 10% 0 0;
   }
-  #about {
-    margin-left: 0;
-    .about {
-      .about--general {
-
-      }
-    }
+  .hero--block .hero--title__block h3 {
+    margin: 0 30px 30px 50px;
   }
 }
-@media(max-width: 1200px) {}
-@media(max-width: 1024px) {}
+@media(max-width: 1200px) {
+  .menu__btn {
+    top: 80%;
+  }
+  #about .about .about--general__title--btn button {
+    font-size: 26px;
+    width: 330px;
+    height: 90px;
+    margin: 35px 0 0 0;
+  }
+  #about .about .about--general__title p {
+    font-size: 19px;
+    width: 325px;
+    margin-top: 76%;
+  }
+  .sidebar #scroll .scroll--general h2 {
+    font-size: 100px;
+    width: 250px;
+  }
+  .sidebar #scroll {
+    width: 392px;
+  }
+  #scroll {
+    margin-left: -7%;
+  }
+  #about .about .about--general__title--btn__click {
+    font-size: 30px;
+    margin: 69px 6px 35px;
+  }
+  .sidebar #hero .hero .hero--block .hero--title__icon {
+    width: 290px;
+  }
+  .sidebar #hero .hero .hero--block .hero--title__icon--block {
+    width: 288px;
+  }
+  .hero--block .hero--title__icon {
+    width: 290px;
+  }
+  .hero--block .hero--title__icon--block {
+    width: 287px;
+    height: 159px;
+  }
+  .sidebar #hero .hero .hero--block .hero--title {
+    margin: -6% 4% 0%;
+  }
+  .hero--block .hero--title__icon {
+    margin: 27% 10% 0 0;
+  }
+  .hero--block .hero--title__block h3 {
+    margin: 35px 30px 30px 50px;
+  }
+  #product .product .product--general h1 {
+    margin-left: -48vw;
+  }
+  #product .product .product--scroll img {
+  }
+}
+@media(max-width: 1024px) {
+  .menu__btn {
+    top: 85%;
+  }
+  #about .about .about--general__title--block {
+    width: 375px;
+    height: 230px;
+  }
+  #about .about {
+    width: 300px;
+  }
+  #about .about .about--general h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 85px;
+    color: #FFFFFF;
+    width: 489px;
+    height: 369px;
+    padding: 20% 0 0 76px;
+  }
+  #about .about .about--general__title--block {
+    width: 375px;
+    height: 115px;
+  }
+}
 @media(max-width: 992px) {}
 @media(max-width: 768px) {}
 @media(max-width: 576px) {}
